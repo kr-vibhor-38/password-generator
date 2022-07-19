@@ -9,7 +9,7 @@ public class Random_Password_Generator {
 
         StringBuffer password = new StringBuffer();
         System.out.println();
-        for (int i = 0; i < 17; i++) {
+        for (int i = 0; i < 21; i++) {
             password.append(characters.charAt(shuffle.nextInt(93)));
         }
 
